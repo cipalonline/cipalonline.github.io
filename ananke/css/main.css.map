@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/druxorey/Workspace/web-projects/source-cipalonline",
+	"sourceRoot": "/home/druxorey/Workspace/web-projects/cipalonline",
 	"sources": [
 		"ananke/css/main.css"
 	],

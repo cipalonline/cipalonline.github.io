@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/arch-installation-guide/</loc>
+    <loc>http://localhost:36075/posts/bspwm-arch-installation-guide/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:36075/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:36075/posts/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:36075/posts/arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2024-03-22T01:38:38-04:00</lastmod>
+    <loc>http://localhost:36075/categories/</loc>
   </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2024-03-22T01:38:38-04:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:36075/tags/</loc>
   </url>
 </urlset>
