@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'CIPAL ONLINE'
+theme = 'ananke'
