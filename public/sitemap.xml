@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:41431/posts/arch-installation-guide/</loc>
+    <loc>http://localhost:44223/posts/bspwm-arch-installation-guide/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44223/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44223/posts/</loc>
+    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44223/posts/arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:41431/</loc>
-    <lastmod>2024-03-22T01:38:38-04:00</lastmod>
+    <loc>http://localhost:44223/categories/</loc>
   </url><url>
-    <loc>http://localhost:41431/posts/</loc>
-    <lastmod>2024-03-22T01:38:38-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41431/categories/</loc>
-  </url><url>
-    <loc>http://localhost:41431/tags/</loc>
+    <loc>http://localhost:44223/tags/</loc>
   </url>
 </urlset>
