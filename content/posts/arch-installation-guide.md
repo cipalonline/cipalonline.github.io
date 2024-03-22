@@ -1,7 +1,7 @@
 +++
 title = 'Arch Installation Guide'
 date = 2024-03-22T01:38:38-04:00
-draft = true
+draft = false
 +++
 
 Welcome to this guide to install Arch Linux on your computer. This tutorial is rooted in the official Arch Linux documentation, to ensure that you’re receiving accurate and up-to-date information.
