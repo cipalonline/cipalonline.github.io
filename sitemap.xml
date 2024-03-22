@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:41431/posts/arch-installation-guide/</loc>
+    <loc>https://example.org/posts/arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:41431/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:41431/posts/</loc>
+    <loc>https://example.org/posts/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:41431/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:41431/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
