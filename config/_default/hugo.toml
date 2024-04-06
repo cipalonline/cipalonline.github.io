@@ -1,0 +1,12 @@
+baseURL = "https://cipalonline.github.io/"
+title = "CIPAL ONLINE"
+author = "CIPAL"
+copyright = "GPL-3.0 license"
+paginate = 5
+languageCode = "es"
+defaultContentLanguage = "es"
+theme = "tailwind"
+
+[taxonomies]
+category = "categories"
+tag = "tags"

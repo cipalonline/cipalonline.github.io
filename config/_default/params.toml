@@ -1,0 +1,19 @@
+keywords = "hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
+subtitle = ""
+contentTypeName = "posts"
+toc = false
+
+[header]
+logo = "img.png"
+
+[footer]
+since = 2024
+poweredby = true
+
+[social_media]
+
+[[social_media.items]]
+    enabled = true
+    title = 'Github'
+    icon = 'brand-github'
+    link = 'https://github.com/cipalonline/cipalonline.github.io'

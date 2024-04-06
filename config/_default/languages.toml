@@ -1,0 +1,37 @@
+[es]
+  languageCode = 'es'
+  languageDirection = 'ltr'
+  languageName = 'Español'
+  weight = 1
+
+  [es.menu]
+  [[es.menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 10
+
+  [[es.menu.main]]
+    identifier = "about"
+    name = "Sobre nosotros"
+    pageRef = "/about.md"
+    weight = 20
+
+[en]
+  languageCode = 'en'
+  languageDirection = 'ltr'
+  languageName = 'English'
+  weight = 2
+
+  [en.menu]
+  [[en.menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 10
+
+  [[en.menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about.md"
+    weight = 20
