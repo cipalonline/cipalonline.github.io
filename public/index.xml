@@ -2,25 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CIPAL ONLINE</title>
-    <link>http://localhost:44223/</link>
+    <link>https://example.com/</link>
     <description>Recent content on CIPAL ONLINE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>es</language>
+    <copyright>GPL-3.0 license</copyright>
     <lastBuildDate>Fri, 22 Mar 2024 01:56:10 -0400</lastBuildDate>
-    <atom:link href="http://localhost:44223/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BSPWM Arch Installation Guide</title>
-      <link>http://localhost:44223/posts/bspwm-arch-installation-guide/</link>
+      <link>https://example.com/posts/bspwm-arch-installation-guide/</link>
       <pubDate>Fri, 22 Mar 2024 01:56:10 -0400</pubDate>
-      <guid>http://localhost:44223/posts/bspwm-arch-installation-guide/</guid>
+      <guid>https://example.com/posts/bspwm-arch-installation-guide/</guid>
       <description>Welcome to this guide to install BSPWM in your Arch Linux. This guide is designed to be a comprehensive resource to help you every step of the way.&#xA;Whether you&amp;rsquo;re a seasoned Linux user or a newcomer, we&amp;rsquo;ve got you covered. We&amp;rsquo;ll walk you through the process, explain the concepts, and provide tips and tricks to make your experience smooth and enjoyable.&#xA;Important: This guide is based on the assumption that the required packages have been installed using the scripts/initpkg.</description>
     </item>
     <item>
       <title>Arch Installation Guide</title>
-      <link>http://localhost:44223/posts/arch-installation-guide/</link>
+      <link>https://example.com/posts/arch-installation-guide/</link>
       <pubDate>Fri, 22 Mar 2024 01:38:38 -0400</pubDate>
-      <guid>http://localhost:44223/posts/arch-installation-guide/</guid>
+      <guid>https://example.com/posts/arch-installation-guide/</guid>
       <description>Welcome to this guide to install Arch Linux on your computer. This tutorial is rooted in the official Arch Linux documentation, to ensure that you’re receiving accurate and up-to-date information.&#xA;In addition to the standard procedures, this guide introduces alternative commands and strategies designed to streamline the installation process and cater to your unique preferences. Whether you’re a seasoned Linux user or a newcomer to the world of open-source operating systems, you’ll find these modifications helpful in personalizing your Arch Linux experience.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/about/</guid>
+      <description>cipalonline.github.io Este es un proyecto que tiene como objetivo ayudar a los estudiantes de ingeniería informática. En esta página encontrarás post sobre temas de informática y programación, desde los más básicos hasta los más avanzados. Podrás aprender sobre lenguajes de programación, algoritmos, estructuras de datos, bases de datos, inteligencia artificial, seguridad informática y mucho más.&#xA;La página web está alojada en GitHub Pages, para acceder a la página, solo tienes que entrar en el siguiente enlace: https://cipalonline.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.en/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.fr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.fr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.hi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.hi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.jp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.jp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.pl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.pl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.ru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.ru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/search/_index.zh-cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/search/_index.zh-cn/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
