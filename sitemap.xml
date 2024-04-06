@@ -2,20 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:36075/posts/bspwm-arch-installation-guide/</loc>
+    <loc>https://example.com/posts/bspwm-arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:36075/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:36075/posts/</loc>
+    <loc>https://example.com/posts/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:36075/posts/arch-installation-guide/</loc>
+    <loc>https://example.com/posts/arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:36075/categories/</loc>
+    <loc>https://example.com/about/</loc>
   </url><url>
-    <loc>http://localhost:36075/tags/</loc>
+    <loc>https://example.com/search/_index.en/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.fr/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.hi/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.jp/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.pl/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.ru/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/search/_index.zh-cn/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+  </url><url>
+    <loc>https://example.com/series/</loc>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
   </url>
 </urlset>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <title>Categories :: CIPAL ONLINE - Example site for hugo-theme-tailwind</title>
   
+<title>Buscar</title>
+
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
@@ -14,16 +15,18 @@
   content="hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
 />
 <meta name="robots" content="noodp" />
-<meta property="og:title" content="Categories" />
+<meta property="og:title" content="" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.com/categories/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/search/_index.pl/" /><meta property="article:section" content="search" />
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Categories"/>
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
 <meta name="twitter:description" content=""/>
 
 
-<link rel="canonical" href="https://example.com/categories/" />
+<link rel="canonical" href="https://example.com/search/_index.pl/" />
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="/css/index.min.6b36fefec2ed9f418034c92a2410b3c6970c05de2c1fa6751ca7da1b786b6e4f.css">
@@ -36,7 +39,7 @@
 
 
 
-  
+  <link rel="preload" href="/search/_index.pl/index.json" as="fetch" crossorigin="anonymous">
 </head>
 <body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800">
   <header class="flex flex-none justify-center z-10">
@@ -138,15 +141,55 @@
   </header>
   <main class="flex flex-auto justify-center">
     
-  
-  <div class="flex flex-col gap-y-3 p-6 mt-6 mx-2 md:mx-0 rounded-lg shadow-md bg-white dark:bg-gray-700 w-full max-w-4xl lg:max-w-5xl">
-    <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-      <a href="/categories/">Categorías</a>
-    </h1>
-    <ul class="flex flex-col gap-3">
-      
-    </ul>
+<div class="w-full max-w-4xl lg:max-w-5xl">
+  <form class="my-4 mx-2 md:mx-0" action="./" method="get">
+    <div class="flex">
+      <input type="text" name="search" id="search-input" required placeholder="Buscar..." class="rounded-none rounded-s-lg border border-gray-300 text-slate-800 focus:outline-none focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-3  dark:bg-slate-700 dark:border-slate-600 dark:placeholder-slate-400 dark:text-slate-200 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+      <button class="inline-flex items-center px-3 text-sm text-slate-900 bg-slate-200 border border-e-0 border-gray-300 rounded-e-lg dark:bg-slate-600 dark:text-slate-400 dark:border-slate-600">
+        <i class="h-6 w-6 flex-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+</svg>
+
+        </i>
+      </button>
+    </div>
+  </form>
+  <div class="w-full max-w-4xl lg:max-w-5xl">
+    <section class="flex flex-col w-full" id="search-result"></section>
+    <section class="flex flex-col w-full">
+      <p id="search-result-empty" class="hidden mx-2 md:mx-0 text-lg font-semibold text-slate-800 dark:text-slate-200">No se encontró ningún resultado.</p>
+    </section>
   </div>
+</div>
+
+<div class="hidden" id="tag-icon">
+  <i class="h-5 w-5 flex-none">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+  </i>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1"></script>
+<script src="/js/doT.min.js"></script>
+
+<script type="text/javascript">
+  var searchOptions = {
+    summaryInclude:  180 ,
+    minMatchCharLength:  2 ,
+    threshold:  0.3 ,
+  };
+</script><script src="/search.min.15909b76e23d8a4a8add89c47f801557cb63f16699eddb971918fb880d7066cf.js"></script>
+
 
   </main>
   <footer class="flex flex-none justify-center">
