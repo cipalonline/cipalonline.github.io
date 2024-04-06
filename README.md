@@ -1,7 +1,33 @@
-# cipalonline.github.io
+- [Readme en español](README.es.md)
+- [Readme in english](README.md)
 
-Este es un proyecto que tiene como objetivo ayudar a los estudiantes de ingeniería informática. En esta página encontrarás post sobre temas de informática y programación, desde los más básicos hasta los más avanzados. Podrás aprender sobre lenguajes de programación, algoritmos, estructuras de datos, bases de datos, inteligencia artificial, seguridad informática y mucho más.
+# CIPAL ONLINE
 
-La página web está alojada en GitHub Pages, para acceder a la página, solo tienes que entrar en el siguiente enlace: https://cipalonline.github.io
+**CIPAL ONLINE** is an initiative dedicated to enriching the education of future professionals in computer engineering. Here, students will find a wide range of educational resources covering everything from fundamental concepts to advanced topics in computing and programming.
 
-Gracias por tu interés y tu colaboración en este proyecto. Esperamos que te sea de utilidad y que disfrutes aprendiendo con nosotros.
+To access the contents of **CIPAL ONLINE**, visit our website hosted on GitHub Pages: [CIPAL ONLINE](https://cipalonline.github.io/).
+
+# Contributions
+
+## How to contribute?
+Interested in contributing? If you find any errors in a publication or wish to contribute to the website, open a pull request in this repository. Your knowledge and experience can help other students!
+
+## Pull requests
+1. First, open an issue to discuss the changes.
+2. Then clone or fork this repository.
+3. Make the change you need in a branch of this repository (not the source or public branch).
+4. Submit a pull request and include a reference to the initial issue with the discussion.
+
+# Collaborators
+
+### Website Creators
+- [Druxorey](https://github.com/druxorey/)
+- [Badjavii](https://github.com/Badjavii)
+
+# Contact
+
+If you have questions or suggestions, do not hesitate to contact us through our email [cipalonline@gmail.com](mailto:cipalonline@gmail.com).
+
+# License
+
+This project is under the GPL-3.0 license. For more details, see the `LICENSE` file included in this repository.
