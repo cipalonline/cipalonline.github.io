@@ -3,12 +3,12 @@ title = 'Guía de Instalación de Arch Linux'
 date = 2024-03-22T01:38:38-04:00
 description = "Descubre cómo instalar Arch Linux, el sistema operativo que te da control total. Este post te lleva paso a paso por la configuración inicial, creando un entorno a tu medida."
 tags = [
-    "arch",
-    "linux",
-    "os installation",
+    "Arch",
+    "Linux",
+    "Instalación de un OS",
 ]
 categories = [
-    "linux",
+    "Linux",
 ]
 aliases = ['bspwm-arch-installation-guide']
 +++

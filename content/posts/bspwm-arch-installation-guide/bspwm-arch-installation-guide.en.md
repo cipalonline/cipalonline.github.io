@@ -3,12 +3,12 @@ title = 'BSPWM Arch Linux Installation Guide'
 date = 2024-03-22T01:56:10-04:00
 description = "Learn to customize bspwm for an efficient desktop on Arch Linux. This article shows you how to tweak every detail for a perfectly riced workspace."
 tags = [
-    "customization",
-    "arch",
-    "linux",
+    "Customization",
+    "Arch",
+    "Linux",
 ]
 categories = [
-    "linux",
+    "Linux",
 ]
 aliases = ['bspwm-arch-installation-guide']
 +++

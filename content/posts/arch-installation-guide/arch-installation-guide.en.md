@@ -3,12 +3,12 @@ title = 'Arch Linux Installation Guide'
 date = 2024-03-22T01:38:38-04:00
 description = "Discover how to install Arch Linux, the operating system that gives you total control. This post guides you step by step through the initial setup, creating an environment tailored to you."
 tags = [
-    "arch",
-    "linux",
-    "os installation",
+    "Arch",
+    "Linux",
+    "OS Installation",
 ]
 categories = [
-    "linux",
+    "Linux",
 ]
 aliases = ['bspwm-arch-installation-guide']
 +++

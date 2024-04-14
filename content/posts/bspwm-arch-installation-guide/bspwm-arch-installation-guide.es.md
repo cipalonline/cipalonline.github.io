@@ -3,12 +3,12 @@ title = 'Guía de Instalación de BSPWM en Arch Linux'
 date = 2024-03-22T01:56:10-04:00
 description = "Aprende a personalizar bspwm para un escritorio eficiente en Arch Linux. Este artículo te muestra cómo ajustar cada detalle para un espacio de trabajo perfectamente customizado."
 tags = [
-    "customization",
-    "arch",
-    "linux",
+    "Customización",
+    "Arch",
+    "Linux",
 ]
 categories = [
-    "linux",
+    "Linux",
 ]
 aliases = ['bspwm-arch-installation-guide']
 +++
