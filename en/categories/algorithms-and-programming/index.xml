@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms and Programming on CIPAL ONLINE</title>
+    <link>https://cipalonline.github.io/en/categories/algorithms-and-programming/</link>
+    <description>Recent content in Algorithms and Programming on CIPAL ONLINE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>GPL-3.0 license</copyright>
+    <lastBuildDate>Sat, 13 Apr 2024 21:22:52 -0400</lastBuildDate>
+    <atom:link href="https://cipalonline.github.io/en/categories/algorithms-and-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Algorithms and Programming</title>
+      <link>https://cipalonline.github.io/en/posts/introduction-to-algorithms-and-programming/introduction-to-algorithms-and-programming/</link>
+      <pubDate>Sat, 13 Apr 2024 21:22:52 -0400</pubDate>
+      <guid>https://cipalonline.github.io/en/posts/introduction-to-algorithms-and-programming/introduction-to-algorithms-and-programming/</guid>
+      <description>What is an Algorithm and how does it differ from a Program? An algorithm is a set of step-by-step instructions that define how a task should be performed. In programming, algorithms are fundamental as they define the logic that computers must follow to solve specific problems.&#xA;A program is the implementation of one or more algorithms in a specific programming language. While an algorithm can be represented in many ways, a program is a concrete artifact that can be executed by a computer.</description>
+    </item>
+  </channel>
+</rss>

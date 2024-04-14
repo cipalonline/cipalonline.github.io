@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>GPL-3.0 license</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 01:56:10 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 13 Apr 2024 21:22:52 -0400</lastBuildDate>
     <atom:link href="https://cipalonline.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms</title>
+      <link>https://cipalonline.github.io/en/tags/algorithms/</link>
+      <pubDate>Sat, 13 Apr 2024 21:22:52 -0400</pubDate>
+      <guid>https://cipalonline.github.io/en/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introducción</title>
+      <link>https://cipalonline.github.io/en/tags/introducci%C3%B3n/</link>
+      <pubDate>Sat, 13 Apr 2024 21:22:52 -0400</pubDate>
+      <guid>https://cipalonline.github.io/en/tags/introducci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://cipalonline.github.io/en/tags/programming/</link>
+      <pubDate>Sat, 13 Apr 2024 21:22:52 -0400</pubDate>
+      <guid>https://cipalonline.github.io/en/tags/programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arch</title>
       <link>https://cipalonline.github.io/en/tags/arch/</link>
@@ -31,7 +52,7 @@
       <description></description>
     </item>
     <item>
-      <title>Os Installation</title>
+      <title>OS Installation</title>
       <link>https://cipalonline.github.io/en/tags/os-installation/</link>
       <pubDate>Fri, 22 Mar 2024 01:38:38 -0400</pubDate>
       <guid>https://cipalonline.github.io/en/tags/os-installation/</guid>

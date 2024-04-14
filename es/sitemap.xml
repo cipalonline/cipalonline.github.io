@@ -2,6 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cipalonline.github.io/tags/algoritmos/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://cipalonline.github.io/categories/algoritmos-y-programaci%C3%B3n/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://cipalonline.github.io/categories/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://cipalonline.github.io/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/"
+                />
+  </url><url>
+    <loc>https://cipalonline.github.io/tags/introducci%C3%B3n/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/tags/introducci%C3%B3n/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/tags/introducci%C3%B3n/"
+                />
+  </url><url>
+    <loc>https://cipalonline.github.io/posts/introduction-to-algorithms-and-programming/introduction-to-algorithms-and-programming/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/posts/introduction-to-algorithms-and-programming/introduction-to-algorithms-and-programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/posts/introduction-to-algorithms-and-programming/introduction-to-algorithms-and-programming/"
+                />
+  </url><url>
+    <loc>https://cipalonline.github.io/posts/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://cipalonline.github.io/tags/programaci%C3%B3n/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+  </url><url>
+    <loc>https://cipalonline.github.io/tags/</loc>
+    <lastmod>2024-04-13T21:22:52-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cipalonline.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://cipalonline.github.io/tags/"
+                />
+  </url><url>
     <loc>https://cipalonline.github.io/tags/arch/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
     <xhtml:link
@@ -15,44 +102,8 @@
                 href="https://cipalonline.github.io/tags/arch/"
                 />
   </url><url>
-    <loc>https://cipalonline.github.io/categories/</loc>
+    <loc>https://cipalonline.github.io/tags/customizaci%C3%B3n/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://cipalonline.github.io/</loc>
-    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/"
-                />
-  </url><url>
-    <loc>https://cipalonline.github.io/tags/customization/</loc>
-    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/tags/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/tags/customization/"
-                />
   </url><url>
     <loc>https://cipalonline.github.io/posts/bspwm-arch-installation-guide/bspwm-arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:56:10-04:00</lastmod>
@@ -93,32 +144,6 @@
                 href="https://cipalonline.github.io/categories/linux/"
                 />
   </url><url>
-    <loc>https://cipalonline.github.io/posts/</loc>
-    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/posts/"
-                />
-  </url><url>
-    <loc>https://cipalonline.github.io/tags/</loc>
-    <lastmod>2024-03-22T01:56:10-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/tags/"
-                />
-  </url><url>
     <loc>https://cipalonline.github.io/posts/arch-installation-guide/arch-installation-guide/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
     <xhtml:link
@@ -132,18 +157,8 @@
                 href="https://cipalonline.github.io/posts/arch-installation-guide/arch-installation-guide/"
                 />
   </url><url>
-    <loc>https://cipalonline.github.io/tags/os-installation/</loc>
+    <loc>https://cipalonline.github.io/tags/instalaci%C3%B3n-de-un-os/</loc>
     <lastmod>2024-03-22T01:38:38-04:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cipalonline.github.io/en/tags/os-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://cipalonline.github.io/tags/os-installation/"
-                />
   </url><url>
     <loc>https://cipalonline.github.io/about/</loc>
     <xhtml:link
