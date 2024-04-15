@@ -1,5 +1,5 @@
 +++
-title = 'Introducción a los algoritmos y la programación'
+title = 'Introducción a Algoritmos y Programación'
 date = 2024-04-13T21:22:52-04:00
 description = "Adéntrate en el fascinante mundo de los algoritmos y la programación con nuestro post introductorio. Explora los conceptos fundamentales de los algoritmos y cómo se diferencian de los programas y descubre la importancia de los datos y cómo se transforman en información valiosa."
 tags = [
@@ -10,7 +10,7 @@ tags = [
 categories = [
     "Algoritmos y Programación",
 ]
-aliases = ['Introducción a los algoritmos y la programación.']
+aliases = ['Introducción a Algoritmos y Programación']
 +++
 
 # ¿Qué es un Algoritmo y cómo se diferencia de un Programa?
