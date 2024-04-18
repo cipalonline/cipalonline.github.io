@@ -336,7 +336,24 @@ Una vez que tienes el nombre de tu conexión (referido como `<ssid>`), puedes mo
 
 Reemplaza `<ssid>` con el nombre de tu conexión. Este comando establece los servidores DNS para tu conexión especificada en los servidores DNS de Google.
 
-## 5.4) Optimización de la Batería <a name='id-5.4'></a>
+## 5.4) Configuración del Firewall <a name='id-5.4'></a>
+
+Configurar el Firewall es un paso muy importante si quieres tener un sistema seguro, la forma más fácil es usando el paquete `ufw`, puedes instalarlo con el siguiente comando:
+
+    $ sudo pacman -S ufw
+
+Una vez instalado, necesitas configurar algunas reglas para configurarlo:
+
+    $ sudo ufw limit 22/tcp
+    $ sudo ufw allow 80/tcp
+    $ sudo ufw allow 443/tcp
+    $ sudo ufw default deny incoming
+    $ sudo ufw default allow outgoing
+    $ sudo ufw enable
+
+Estos comandos limitan los intentos de conexión al puerto 22, y permiten todas las conexiones entrantes a los puertos 80 y 443, que son los puertos estándar para las solicitudes HTTP. También establece la política predeterminada para denegar todas las conexiones entrantes. También establece la política predeterminada para permitir todas las conexiones salientes. Y finalmente, habilita el firewall.
+
+## 5.5) Optimización de la Batería <a name='id-5.5'></a>
 
 Si estás instalando Arch Linux en un portátil, la optimización de la vida de la batería es crucial. Una herramienta efectiva para este propósito es `auto-cpufreq`. Esta utilidad ajusta dinámicamente la frecuencia de tu CPU en función de la carga y la fuente de alimentación. Así es como puedes instalarla y usarla:
 
