@@ -14,7 +14,7 @@
       <link>https://cipalonline.github.io/en/posts/bspwm-arch-installation-guide/bspwm-arch-installation-guide/</link>
       <pubDate>Fri, 22 Mar 2024 01:56:10 -0400</pubDate>
       <guid>https://cipalonline.github.io/en/posts/bspwm-arch-installation-guide/bspwm-arch-installation-guide/</guid>
-      <description>Welcome to this guide to install BSPWM in your Arch Linux. Whether you&amp;rsquo;re a seasoned Linux user or a newcomer, we&amp;rsquo;ve got you covered. We&amp;rsquo;ll walk you through the process, explain the concepts, and provide tips and tricks to make your experience smooth and enjoyable.&#xA;Important: This guide is based on the assumption that the required packages have been installed using the scripts/initpkg.sh script. Please ensure that you have successfully run this script before proceeding with the steps outlined in this guide.</description>
+      <description>Welcome to this guide to install BSPWM in your Arch Linux. Whether you&amp;rsquo;re a seasoned Linux user or a newcomer, we&amp;rsquo;ve got you covered. We&amp;rsquo;ll walk you through the process, explain the concepts, and provide tips and tricks to make your experience smooth and enjoyable.&#xA;- Note: To follow this guide, we assume that you already have Arch Linux installed. If you have not installed it yet, you can refer to the Arch Linux Installation Guide .</description>
     </item>
   </channel>
 </rss>

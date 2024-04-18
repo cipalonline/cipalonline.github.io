@@ -283,7 +283,7 @@ Además de los procedimientos estándar, esta guía añade diferentes comandos y
 
     </i>
     <span>
-      15 minutos de lectura
+      16 minutos de lectura
     </span>
   </div>
 </div>
@@ -516,7 +516,20 @@ $ reboot
 <pre><code>$ nmcli con mod &quot;&lt;ssid&gt;&quot; ipv4.dns &quot;8.8.8.8 8.8.4.4&quot;
 </code></pre>
 <p>Reemplaza <code>&lt;ssid&gt;</code> con el nombre de tu conexión. Este comando establece los servidores DNS para tu conexión especificada en los servidores DNS de Google.</p>
-<h2 id="54-optimización-de-la-batería-a-nameid-54a">5.4) Optimización de la Batería <!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<h2 id="54-configuración-del-firewall-a-nameid-54a">5.4) Configuración del Firewall <!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<p>Configurar el Firewall es un paso muy importante si quieres tener un sistema seguro, la forma más fácil es usando el paquete <code>ufw</code>, puedes instalarlo con el siguiente comando:</p>
+<pre><code>$ sudo pacman -S ufw
+</code></pre>
+<p>Una vez instalado, necesitas configurar algunas reglas para configurarlo:</p>
+<pre><code>$ sudo ufw limit 22/tcp
+$ sudo ufw allow 80/tcp
+$ sudo ufw allow 443/tcp
+$ sudo ufw default deny incoming
+$ sudo ufw default allow outgoing
+$ sudo ufw enable
+</code></pre>
+<p>Estos comandos limitan los intentos de conexión al puerto 22, y permiten todas las conexiones entrantes a los puertos 80 y 443, que son los puertos estándar para las solicitudes HTTP. También establece la política predeterminada para denegar todas las conexiones entrantes. También establece la política predeterminada para permitir todas las conexiones salientes. Y finalmente, habilita el firewall.</p>
+<h2 id="55-optimización-de-la-batería-a-nameid-55a">5.5) Optimización de la Batería <!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <p>Si estás instalando Arch Linux en un portátil, la optimización de la vida de la batería es crucial. Una herramienta efectiva para este propósito es <code>auto-cpufreq</code>. Esta utilidad ajusta dinámicamente la frecuencia de tu CPU en función de la carga y la fuente de alimentación. Así es como puedes instalarla y usarla:</p>
 <p>Primero, clona el repositorio de GitHub:</p>
 <pre><code>$ git clone https://github.com/AdnanHodzic/auto-cpufreq.git

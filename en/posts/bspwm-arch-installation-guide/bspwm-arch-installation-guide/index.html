@@ -8,7 +8,7 @@
 <meta
   name="description"
   content="Welcome to this guide to install BSPWM in your Arch Linux. Whether you&amp;rsquo;re a seasoned Linux user or a newcomer, we&amp;rsquo;ve got you covered. We&amp;rsquo;ll walk you through the process, explain the concepts, and provide tips and tricks to make your experience smooth and enjoyable.
-Important: This guide is based on the assumption that the required packages have been installed using the scripts/initpkg.sh script. Please ensure that you have successfully run this script before proceeding with the steps outlined in this guide."
+- Note: To follow this guide, we assume that you already have Arch Linux installed. If you have not installed it yet, you can refer to the Arch Linux Installation Guide ."
 />
 <meta
   name="keywords"
@@ -283,7 +283,7 @@ Important: This guide is based on the assumption that the required packages have
 
     </i>
     <span>
-      2 minutes to read
+      3 minutes to read
     </span>
   </div>
 </div>
@@ -293,20 +293,52 @@ Important: This guide is based on the assumption that the required packages have
 
     <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
       <p>Welcome to this guide to install BSPWM in your Arch Linux. Whether you&rsquo;re a seasoned Linux user or a newcomer, we&rsquo;ve got you covered. We&rsquo;ll walk you through the process, explain the concepts, and provide tips and tricks to make your experience smooth and enjoyable.</p>
-<p><em><strong>Important</strong>: This guide is based on the assumption that the required packages have been installed using the <code>scripts/initpkg.sh</code> script. Please ensure that you have successfully run this script before proceeding with the steps outlined in this guide.</em></p>
-<h2 id="initializing-the-desktop-environment">Initializing the Desktop Environment</h2>
-<p>The first step in setting up BSPWM on Arch Linux is to initialize the LightDM display manager. This can be done by enabling it through the system control as follows:</p>
+<p><em>- <strong>Note</strong>: To follow this guide, we assume that you already have Arch Linux installed. If you have not installed it yet, you can refer to the <a href="/posts/arch-installation-guide/arch-installation-guide/">Arch Linux Installation Guide</a>
+.</em></p>
+<h1 id="1-installing-bspwm-and-sxhkd">1) Installing BSPWM and SXHKD</h1>
+<p>We will start with the installation of <strong>bspwm</strong> and <strong>sxhkd</strong>. BSPWM is a tiling window manager and SXHKD, on the other hand, is an independent daemon to bind actions to key combinations and/or mouse buttons.</p>
+<p>We will also install <strong>lightdm</strong>, which is a lightweight display manager, along with <strong>lightdm-gtk-greeter</strong> and <strong>lightdm-gtk-greeter-settings</strong> to provide a graphical user interface for configuration. Finally, <strong>xorg</strong>, which is the most popular public, free, and open-source window system.</p>
+<p>To install these packages, open a terminal and run the following command:</p>
+<pre><code>$ sudo pacman -S bspwm sxhkd lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xorg
+</code></pre>
+<h1 id="2-initializing-the-desktop-environment">2) Initializing the Desktop Environment</h1>
+<h2 id="21-enabling-the-display-manager">2.1) Enabling the Display Manager</h2>
+<p>Now we have to initialize the LightDM display manager. This can be done by enabling it through the system control as follows:</p>
 <pre><code>$ sudo systemctl enable lightdm
 </code></pre>
+<h2 id="22-configuring-bspwm-and-sxhkd">2.2) Configuring BSPWM and SXHKD</h2>
 <p>Next, we need to create custom directories for BSPWM and SXHKD  in the <code>.config</code> directory. This can be done using the <code>mkdir</code> command:</p>
-<pre><code>$ mkdir -p .config/{bspwm,sxhkd}
+<pre><code>$ mkdir -p ~/.config/{bspwm,sxhkd}
 </code></pre>
 <p>Once the directories are created, we can proceed to install the necessary files with the appropriate permissions. We&rsquo;ll use the <code>install</code> command to copy the example configuration files from the BSPWM and SXHKD documentation to our newly created directories:</p>
-<pre><code>$ install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/
-$ install -Dm644 /usr/share/doc/sxhkd/examples/sxhkdrc .config/sxhkd/
+<pre><code>$ install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+$ install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 </code></pre>
-<p>After installing the files, it&rsquo;s crucial to modify the <code>sxhkdrc</code> file located in the <code>.config/sxhkd/</code> directory. This file contains the configuration for the hotkeys, including the one for opening the terminal. If this is not set up correctly, you may encounter issues when trying to open a terminal after a system restart. Therefore, ensure that the terminal program is correctly set in the <code>sxhkdrc</code> file.</p>
-<p>Remember, each step is crucial for the successful installation and operation of the BSPWM on Arch Linux. Happy coding!</p>
+<p>After installing the files, it&rsquo;s crucial to modify the <code>sxhkdrc</code> file located in the <code>.config/sxhkd/</code> directory. This file contains the configuration for the hotkeys, including the one for opening the terminal. If this is not set up correctly, you may encounter issues when trying to open a terminal after a system restart.</p>
+<p>In our case we will use <code>Kitty</code> as our terminal emulator, so the configuration would be as follows:</p>
+<pre><code># kitty
+super + Return
+    kitty
+</code></pre>
+<h1 id="3-customizing-bspwm">3) Customizing BSPWM</h1>
+<h2 id="31-installation-and-configuration-of-lxappearance-picom-and-nitrogen">3.1) Installation and Configuration of LXAppearance, Picom, and Nitrogen</h2>
+<p>We will install the <code>lxappearance</code>, <code>picom</code>, and <code>nitrogen</code> packages to customize the desktop environment.</p>
+<h3 id="lxappearance">LXAppearance</h3>
+<p><strong>LXAppearance</strong> is a desktop-independent theme manager that allows us to change the appearance of our desktop environment. To install it, run the following command:</p>
+<pre><code>$ sudo pacman -S lxappearance
+</code></pre>
+<p>Once installed, you can run <code>lxappearance</code> in the terminal to open the graphical user interface. Here you can change the GTK theme, the icon theme, the font, and the cursor.</p>
+<h3 id="picom">Picom</h3>
+<p><strong>Picom</strong> is an independent compositor for Xorg, famous for providing shading and transparency effects to windows. To install it, run the following command:</p>
+<pre><code>$ sudo pacman -S picom
+</code></pre>
+<p>After installation, you can start Picom with the command <code>picom &amp;</code>. To configure it, create a configuration file in your home directory, for example <code>~/.config/picom/picom.conf</code>, and adjust the settings according to your needs.</p>
+<h3 id="nitrogen">Nitrogen</h3>
+<p><strong>Nitrogen</strong> is a utility for changing the desktop background in X Window systems. To install it, run the following command:</p>
+<pre><code>$ sudo pacman -S nitrogen
+</code></pre>
+<p>After installation, you can run <code>nitrogen /path/to/your/images/</code> to select an image as a desktop background.</p>
+<p><em>- <strong>Important</strong>: If you want these programs to run when you start your computer, you can add the following configuration to your .bspwmrc file: <code>nitrogen --restore % &amp; picom --config ~/.config/picom/picom.conf &amp;</code>.</em></p>
 
     </article>
 
